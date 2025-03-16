@@ -28,7 +28,7 @@ class HomeController extends Controller
 
         $data = [
             'bookings' => $bookings,
-            'events' => $events,
+            'events' => @$events,
         ];
 
         return view('pages.home', $data);

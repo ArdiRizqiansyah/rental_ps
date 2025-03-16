@@ -5,7 +5,9 @@
             var calendarEl = $('#calendar');
             var calendar = new FullCalendar.Calendar(calendarEl[0], {
                 initialView: 'dayGridMonth',
-                events: @json(@$events)
+                @if (@$events)
+                    events: @json(@$events)
+                @endif
             });
             calendar.render();
         });

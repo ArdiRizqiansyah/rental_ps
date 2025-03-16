@@ -29,7 +29,7 @@
                     </div>
                     <div class="card">
                         <h5 class="card-header fw-bold">
-                            <i class="fas fa-money-check text-primary me-1 fs-3"></i> Pembelian
+                            <i class="fas fa-money-check text-primary me-1 fs-3"></i> Metode Pembayaran
                         </h5>
                         <div class="card-body">
                             @foreach ($feeMethods as $feeMethod)
