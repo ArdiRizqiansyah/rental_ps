@@ -70,7 +70,7 @@ DB_PASSWORD={your_password}
 
 FILESYSTEM_DISK=public
 
-MIDTRANS_SERVERKEY=<your_serverkey>
+MIDTRANS_SERVERKEY="<your_serverkey>"
 MIDTRANS_CLIENTKEY="<your_clientkey>"
 MIDTRANS_IS_PRODUCTION=false
 ```
